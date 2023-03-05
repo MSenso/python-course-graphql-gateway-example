@@ -1,0 +1,30 @@
+{
+  "articles": [
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Kurir",
+      "title": "KOSJERINA I KRISTINA U MINIĆIMA! Voditelji ŠOKIRALI publiku na samom početku Pesme za Evroviziju: Ovo niko nij - Kurir",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiYmh0dHBzOi8vd3d3Lmt1cmlyLnJzL3phYmF2YS9wb3Ata3VsdHVyYS80MTE5MDUyL2RyYWdhbmEta29zamVyaW5hLWkta3Jpc3RpbmEtcmFkZW5rb3ZpYy11LW1pbmljaW1h0gFTaHR0cHM6Ly93d3cua3VyaXIucnMvYW1wLzQxMTkwNTIvZHJhZ2FuYS1rb3NqZXJpbmEtaS1rcmlzdGluYS1yYWRlbmtvdmljLXUtbWluaWNpbWE?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-03-04T20:22:59Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Blic.rs",
+      "title": "Preminula mlada doktorka Aleksandra Jović iz Doma zdravlja u Lebanu - Blic.rs",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMibWh0dHBzOi8vd3d3LmJsaWMucnMvdmVzdGkvaHJvbmlrYS9wcmVtaW51bGEtbWxhZGEtZG9rdG9ya2EtYWxla3NhbmRyYS1qb3ZpYy1pei1kb21hLXpkcmF2bGphLXUtbGViYW51L2I4NzZra2LSAQA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-03-04T20:04:24Z",
+      "content": null
+    }
+  ]
+}
