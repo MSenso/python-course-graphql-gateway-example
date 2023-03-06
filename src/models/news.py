@@ -8,6 +8,7 @@ class NewsModel(BaseModel):
     """
     Модель для описания новостей.
     """
+
     id: Optional[int] = Field(title="Идентификатор")
     title: str = Field(title="Название")
     author: Optional[str] = Field(title="Автор")

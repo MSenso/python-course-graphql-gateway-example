@@ -11,7 +11,7 @@ class CountryLoader(DataLoader):
     """
 
     def batch_load_fn(  # pylint: disable=method-hidden
-            self, alpha2codes: list[str]
+        self, alpha2codes: list[str]
     ) -> Promise:
         """
         Функция для загрузки связанных данных по переданному множеству значений.
@@ -33,7 +33,7 @@ class NewsLoader(DataLoader):
     """
 
     def batch_load_fn(  # pylint: disable=method-hidden
-            self, alpha2codes: list[str]
+        self, alpha2codes: list[str]
     ) -> Promise:
         """
         Функция для загрузки связанных данных по переданному множеству значений.
