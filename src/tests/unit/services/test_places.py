@@ -1,24 +1,6 @@
-import json
-from datetime import datetime
-
 from services.places import PlacesService
 
-
-def get_places_from_file():
-    with open("fixtures/places.json", encoding="utf-8") as file:
-        places = json.load(file)["data"]
-    return places
-
-
-def assert_place(actual, expected):
-    assert actual.id == expected["id"]
-    assert actual.city == expected["city"]
-    assert actual.country == expected["country"]
-    assert actual.latitude == expected["latitude"]
-    assert actual.longitude == expected["longitude"]
-    assert actual.locality == expected["locality"]
-    assert actual.description == expected["description"]
-    assert datetime.strftime(actual.created_at, "%Y-%m-%dT%H:%M:%S.%f") == expected["created_at"]
+from tests.unit.utils import get_places_from_file, assert_place
 
 
 def test_read_places():

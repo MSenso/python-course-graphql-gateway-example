@@ -1,7 +1,7 @@
 import json
+from typing import Optional
 
 from models.places import PlaceModel
-from typing import Optional
 
 
 class PlacesService:
@@ -33,10 +33,7 @@ class PlacesService:
         result = []
         with open("fixtures/places.json", encoding="utf-8") as file:
             if data := json.load(file):
-                result = [
-                    self.create_place(place)
-                    for place in data.get("data", [])
-                ]
+                result = [self.create_place(place) for place in data.get("data", [])]
 
         return result
 
@@ -52,8 +49,7 @@ class PlacesService:
             if data := json.load(file):
                 places = data.get("data", [])
                 result = [
-                    self.create_place(place)
-                    for place in places if place["id"] == id
+                    self.create_place(place) for place in places if place["id"] == id
                 ]
                 return result[0] if len(result) > 0 else None
 
