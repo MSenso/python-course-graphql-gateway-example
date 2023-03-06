@@ -1,6 +1,5 @@
 from services.places import PlacesService
-
-from tests.unit.utils import get_places_from_file, assert_place
+from tests.unit.utils import assert_place, get_places_from_file
 
 
 def test_read_places():

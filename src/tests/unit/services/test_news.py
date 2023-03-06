@@ -1,6 +1,5 @@
 from services.news import NewsService
-
-from tests.unit.utils import get_countries_news_from_file, assert_news
+from tests.unit.utils import assert_news, get_countries_news_from_file
 
 
 def test_read_news():

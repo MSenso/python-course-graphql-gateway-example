@@ -1,6 +1,5 @@
 from services.countries import CountriesService
-
-from tests.unit.utils import get_countries_from_file, assert_country
+from tests.unit.utils import assert_country, get_countries_from_file
 
 
 def test_read_countries():

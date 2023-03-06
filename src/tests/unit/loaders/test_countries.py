@@ -1,8 +1,11 @@
 import pytest
 
 from dataloaders import CountryLoader
-
-from tests.unit.utils import get_country_from_file, assert_country, get_countries_from_file
+from tests.unit.utils import (
+    assert_country,
+    get_countries_from_file,
+    get_country_from_file,
+)
 
 
 @pytest.fixture

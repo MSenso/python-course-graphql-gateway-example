@@ -14,7 +14,7 @@ class NewsService:
     """
 
     @staticmethod
-    def create_news(news: dict):
+    def create_news(news: dict) -> NewsModel:
         return NewsModel(
             id=news.get("id"),
             title=news.get("title"),
